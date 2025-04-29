@@ -60,7 +60,7 @@ class _DiaryPageState extends State<DiaryPage> {
           setState(() {
             currentNavIndex = index;
           });
-        },
+        }, entries: [],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
